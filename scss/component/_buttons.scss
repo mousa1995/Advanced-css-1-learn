@@ -1,0 +1,13 @@
+.btn:link,
+.btn:visited{
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 1.5rem;
+}
+
+.btn--white{
+  background-color: $color-white;
+  color: $color-gray-dark;
+}
