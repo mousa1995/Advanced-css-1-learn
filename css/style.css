@@ -62,7 +62,16 @@ body {
   text-transform: uppercase;
   padding: 1.5rem 4rem;
   display: inline-block;
-  border-radius: 1.5rem; }
+  border-radius: 10rem;
+  transition: all .2s; }
+  .btn:link:hover,
+  .btn:visited:hover {
+    transform: translateY(-2rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35); }
+  .btn:link:active,
+  .btn:visited:active {
+    transform: translateY(-1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35); }
 
 .btn--white {
   background-color: #fff;
