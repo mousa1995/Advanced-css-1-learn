@@ -66,12 +66,17 @@ body {
     display: table;
     content: "";
     clear: both; }
-  .row .col-1-of-2 {
-    width: calc((100% - 8rem) / 2);
+  .row [class^="col-"] {
     background-color: aqua;
     float: left; }
-    .row .col-1-of-2:not(:last-child) {
+    .row [class^="col-"]:not(:last-child) {
       margin-right: 8rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 8rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 8rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc((100% - 2 * 8rem) * 2 / 3 + 8rem); }
 
 .btn:link,
 .btn:visited {
