@@ -1,4 +1,4 @@
-.heading__secondary{
+.heading-secondary{
   text-transform: uppercase;
   font-size: 3.5rem;  
   font-weight: 700;
@@ -17,5 +17,19 @@
   &:hover{
     transform: skewX(2deg) skewY(2deg) scale(1.1);
     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
+}
+
+.heading-tertiary{
+  font-size: 1.6rem;
+
+  margin-bottom: 2rem;
+}
+
+.paragraph{
+  font-size: 1.6rem;
+
+  &:not(:last-child){
+    margin-bottom: 6rem;
   }
 }

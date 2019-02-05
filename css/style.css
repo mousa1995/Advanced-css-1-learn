@@ -15,6 +15,12 @@ body {
   box-sizing: border-box;
   color: #777; }
 
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-8 {
+  margin-bottom: 8rem; }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 184, 69, 0.8)), url(../img/hero.jpg);
@@ -58,8 +64,7 @@ body {
 
 .row {
   max-width: 114rem;
-  margin: 0 auto;
-  background-color: #969292; }
+  margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
   .row::after {
@@ -67,7 +72,6 @@ body {
     content: "";
     clear: both; }
   .row [class^="col-"] {
-    background-color: aqua;
     float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 8rem; }
@@ -84,7 +88,7 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * (100% - 3 * 8rem) / 4 + 2 * 8rem); }
 
-.heading__secondary {
+.heading-secondary {
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 700;
@@ -95,9 +99,18 @@ body {
   color: transparent;
   transition: all .2s;
   letter-spacing: .2rem; }
-  .heading__secondary:hover {
+  .heading-secondary:hover {
     transform: skewX(2deg) skewY(2deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.heading-tertiary {
+  font-size: 1.6rem;
+  margin-bottom: 2rem; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 6rem; }
 
 .btn:link,
 .btn:visited {
