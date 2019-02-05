@@ -62,6 +62,10 @@ body {
   background-color: #969292; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
+  .row::after {
+    display: table;
+    content: "";
+    clear: both; }
   .row .col-1-of-2 {
     width: calc((100% - 8rem) / 2);
     background-color: aqua;
