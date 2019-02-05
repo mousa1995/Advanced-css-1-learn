@@ -11,4 +11,11 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent; 
+  transition: all .2s;
+  letter-spacing: .2rem;
+
+  &:hover{
+    transform: skewX(2deg) skewY(2deg) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  }
 }
