@@ -86,7 +86,13 @@ body {
 
 .heading__secondary {
   text-transform: uppercase;
-  font-size: 3.5rem; }
+  font-size: 3.5rem;
+  font-weight: 700;
+  background-image: linear-gradient(to right, #28b845, #7ed56f);
+  display: inline-block;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; }
 
 .btn:link,
 .btn:visited {
