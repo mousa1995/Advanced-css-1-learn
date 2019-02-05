@@ -64,6 +64,7 @@ body {
 
 .row {
   max-width: 114rem;
+  background-color: #f7f7f7;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
@@ -165,6 +166,27 @@ body {
   color: #777; }
   .btn--white::after {
     background-color: #fff; }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    position: absolute;
+    border-radius: 2px;
+    width: 55%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+    .composition__photo::after {
+      display: table;
+      content: "";
+      clear: both; }
+    .composition__photo-1 {
+      top: -2rem;
+      left: 0; }
+    .composition__photo-2 {
+      top: 2  rem;
+      right: 0; }
+    .composition__photo-3 {
+      right: 20%;
+      top: 10rem; }
 
 .about {
   background-color: #f7f7f7;
