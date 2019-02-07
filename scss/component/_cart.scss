@@ -126,6 +126,10 @@
     font-weight: 700;
     text-transform: uppercase;
     color: $color-white;
+    position: absolute;
+    top: 12rem;
+    left: 2rem;
+    text-align: right;
   }
 
   &__details{
