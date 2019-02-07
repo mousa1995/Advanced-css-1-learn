@@ -128,8 +128,18 @@
     color: $color-white;
     position: absolute;
     top: 12rem;
-    left: 2rem;
+    left: 2.5rem;
     text-align: right;
+    width: 75%;
+
+    &-span{
+
+
+      &--1{
+        background-image: linear-gradient(to right bottom,
+        rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+      }
+    }
   }
 
   &__details{
