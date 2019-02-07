@@ -273,11 +273,15 @@ body {
     color: #fff;
     position: absolute;
     top: 12rem;
-    left: 2.5rem;
+    left: 6rem;
     text-align: right;
     width: 75%; }
-    .cart__heading-span--1 {
-      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .cart__heading-span {
+      padding: 1rem 1.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone; }
+      .cart__heading-span--1 {
+        background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
 
 .about {
   background-color: #f7f7f7;

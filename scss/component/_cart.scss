@@ -128,12 +128,14 @@
     color: $color-white;
     position: absolute;
     top: 12rem;
-    left: 2.5rem;
+    left: 6rem;
     text-align: right;
     width: 75%;
 
     &-span{
-
+      padding: 1rem 1.5rem;
+      -webkit-box-decoration-break: clone;
+      box-decoration-break: clone;
 
       &--1{
         background-image: linear-gradient(to right bottom,
