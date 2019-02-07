@@ -224,7 +224,7 @@ body {
       color: transparent; }
 
 .tours {
-  padding: 25rem 0 50rem 0;
+  padding: 25rem 0 0rem 0;
   background-color: #f7f7f7;
   margin-top: -7.8rem; }
 
@@ -311,6 +311,18 @@ body {
   .cart__price-value {
     font-size: 6rem;
     font-weight: 100; }
+
+.stories {
+  padding: 5rem 0 15rem 0;
+  background-color: #f7f7f7; }
+
+.story {
+  width: 75%;
+  margin: 0 auto;
+  box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 6rem; }
 
 .about {
   background-color: #f7f7f7;
