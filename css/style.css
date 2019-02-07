@@ -233,7 +233,6 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 50rem;
-  border-radius: 3px;
   overflow: hidden; }
   .cart__side {
     height: 50rem;
@@ -242,7 +241,9 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    backface-visibility: hidden; }
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden; }
     .cart__side--front {
       transform: rotateY(0deg); }
     .cart__side--back {
