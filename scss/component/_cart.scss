@@ -146,6 +146,19 @@
 
   &__details{
 
+    ul{
+      list-style-type: none;
+      font-size: 1.5rem;
+      li{
+        text-align: center;
+        padding: 1rem;
+        width: 80%;
+        :not(:last-child){
+          border-bottom: 1px solid $color-gray-light-2;
+        }
+
+      }
+    }
   }
 
 
