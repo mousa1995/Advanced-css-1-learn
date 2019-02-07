@@ -10,4 +10,12 @@
   background-color: $color-white;
   border-radius: 3px;
   padding: 6rem;
+  font-size: 1.6rem;
+
+  &__shape{
+    width: 15rem;
+    height: 15rem;
+    float: left;
+    background-color: red;
+  }
 }
