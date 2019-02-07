@@ -231,7 +231,8 @@ body {
 .cart {
   perspective: 150rem;
   -moz-perspective: 150rem;
-  position: relative; }
+  position: relative;
+  height: 50rem; }
   .cart .cart__side {
     height: 50rem;
     transition: all .8s;
