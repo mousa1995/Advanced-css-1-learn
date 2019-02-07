@@ -1,0 +1,10 @@
+.cart{
+  // background-color: rgba($color-white, .8);
+  background-color: #000;
+  height:  50rem;
+  transition: all .8s;
+
+  &:hover{
+    transform: rotateY(180deg);
+  }
+}
