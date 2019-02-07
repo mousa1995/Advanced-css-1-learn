@@ -17,12 +17,16 @@
     width: 15rem;
     height: 15rem;
     float: left;
-    background-color: red;
     -webkit-shape-outside: circle(50% at 50% 50%);
     shape-outside: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
     //margin-right: 2rem; false!!!! its floated dont do it again!
     transform: translateX(-3rem);
+  }
+
+  &__img{
+    //Avval 100% width dadim chon aks bozorg bud nashod aks haro height bede
+    height: 100%;
   }
 }
