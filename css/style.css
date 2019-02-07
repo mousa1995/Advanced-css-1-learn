@@ -202,7 +202,8 @@ body {
   background-size: cover;
   background-position: top;
   padding: 20rem 0;
-  transform: skewY(-7deg); }
+  transform: skewY(-7deg);
+  margin-top: -10rem; }
   .feature > * {
     transform: skewY(7deg); }
   .feature-box {
@@ -221,6 +222,11 @@ body {
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent; }
+
+.tours {
+  padding: 25rem 0 50rem 0;
+  background-color: #f7f7f7;
+  margin-top: -7.8rem; }
 
 .about {
   background-color: #f7f7f7;
