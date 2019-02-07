@@ -64,7 +64,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #f7f7f7;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 6rem; }
@@ -197,6 +196,24 @@ body {
       outline-offset: 1.5rem; }
   .composition:hover .composition__photo:not(:hover) {
     transform: scale(0.9); }
+
+.feature {
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 184, 69, 0.8)), url(../img/nat-4.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 20rem 0; }
+  .feature-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem; }
+    .feature-box__icon {
+      font-size: 6rem;
+      background-image: linear-gradient(to right, #28b845, #7ed56f);
+      display: inline-block;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent; }
 
 .about {
   background-color: #f7f7f7;
