@@ -229,11 +229,27 @@ body {
   margin-top: -7.8rem; }
 
 .cart {
-  background-color: #000;
-  height: 50rem;
-  transition: all .8s; }
-  .cart:hover {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative; }
+  .cart .cart__side {
+    height: 50rem;
+    transition: all .8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden; }
+    .cart .cart__side--front {
+      background-color: red;
+      transform: rotateY(0deg); }
+    .cart .cart__side--back {
+      background-color: blue;
+      transform: rotateY(-180deg); }
+  .cart:hover .cart__side--front {
     transform: rotateY(180deg); }
+  .cart:hover .cart__side--back {
+    transform: rotateY(0deg); }
 
 .about {
   background-color: #f7f7f7;
