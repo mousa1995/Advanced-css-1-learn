@@ -352,7 +352,8 @@ body {
     font-size: 1.7rem;
     text-transform: uppercase;
     opacity: 0;
-    transition: all .5s; }
+    transition: all .5s;
+    backface-visibility: hidden; }
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
