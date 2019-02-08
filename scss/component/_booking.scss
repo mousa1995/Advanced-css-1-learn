@@ -6,7 +6,12 @@
 }
 
 .book {
-  background-image: url('../img/nat-10.jpg');
+  z-index: 1;
+  background-image: linear-gradient(100deg,
+                                    rgba($color-white, .8) 0%,
+                                    rgba($color-white, .8) 50%,
+                                   transparent 50%) ,url('../img/nat-10.jpg');
   border-radius: 3px; 
+  box-shadow: 0 1.5rem 3rem rgba($color-black, .2);
   height: 50rem;
 }
