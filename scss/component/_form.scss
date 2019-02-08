@@ -15,6 +15,8 @@
     font-family: inherit;
     text-transform: capitalize;
     border-bottom: 3px solid transparent;
+    width: 80%;
+    display: block;
 
     &:focus {
       //focus besoorate default roye input ha hast
@@ -23,6 +25,10 @@
       box-shadow: 0 1rem 2rem rgba($color-black, .5);
       border-bottom: 3px solid $color-primary;
 
+    }
+
+    &::-webkit-input-placeholder {
+      color: $color-gray-dark-2;
     }
   }
 

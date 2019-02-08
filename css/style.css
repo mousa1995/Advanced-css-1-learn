@@ -407,11 +407,15 @@ body {
   border: none;
   font-family: inherit;
   text-transform: capitalize;
-  border-bottom: 3px solid transparent; }
+  border-bottom: 3px solid transparent;
+  width: 80%;
+  display: block; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-bottom: 3px solid #55c57e; }
+  .form__input::-webkit-input-placeholder {
+    color: #999; }
 
 .form__label {
   text-transform: capitalize; }
