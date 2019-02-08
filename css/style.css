@@ -375,7 +375,8 @@ body {
   opacity: .15; }
   .bg-video__content {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    object-fit: cover; }
 
 .about {
   background-color: #f7f7f7;

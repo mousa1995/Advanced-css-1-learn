@@ -10,5 +10,8 @@
   &__content{
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    //این مثل background-size: cover; 
+    //با این تفاوت که نسبت ابعاد المنت رو میگذاره نگه داره
   }
 }
