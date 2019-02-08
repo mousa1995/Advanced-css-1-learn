@@ -25,6 +25,7 @@
     clip-path: circle(50% at 50% 50%);
     //margin-right: 2rem; false!!!! its floated dont do it again!
     transform: translateX(-3rem) skewX(12deg);
+    position: relative;
   }
 
   &__img{
@@ -34,5 +35,15 @@
 
   &__text{
     transform: skewX(12deg);
+  }
+
+  &__caption{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: $color-white;
+    font-size: 1.7rem;
+    text-transform: uppercase;
   }
 }
