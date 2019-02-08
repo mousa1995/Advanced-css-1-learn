@@ -17,6 +17,7 @@
     border-bottom: 3px solid transparent;
     width: 80%;
     display: block;
+    color: inherit;
 
     &:focus {
       //focus besoorate default roye input ha hast
@@ -24,7 +25,10 @@
       //agar out line dadim kasaee ke mouse nadaran moshkel peyda mikonan =>
       box-shadow: 0 1rem 2rem rgba($color-black, .5);
       border-bottom: 3px solid $color-primary;
+    }
 
+    &:focus:invalid {
+      border-bottom: 5px solid $color-secondary-dark;
     }
 
     &::-webkit-input-placeholder {

@@ -409,11 +409,14 @@ body {
   text-transform: capitalize;
   border-bottom: 3px solid transparent;
   width: 80%;
-  display: block; }
+  display: block;
+  color: inherit; }
   .form__input:focus {
     outline: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
     border-bottom: 3px solid #55c57e; }
+  .form__input:focus:invalid {
+    border-bottom: 5px solid #ff7730; }
   .form__input::-webkit-input-placeholder {
     color: #999; }
 
