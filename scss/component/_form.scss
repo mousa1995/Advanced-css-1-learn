@@ -43,13 +43,18 @@
     margin-left: 2rem;
     margin-top: .7rem;
     display: block;
+    transition: all .3s;
   }
 
   &__input:placeholder-shown + &__label{
 
     // + ke estefade shode yani __label ke belafasele bade input biad
     //age belafasele nabud az ~ estefade mikonim
-
+    opacity: 0;
+    visibility: hidden;
+    //dalile in ke az opacity estefade mikonim ine ke 
+    //nemitoonim be visibility animation bedim
+    transform: translateY(-4rem);
   }
 
   
