@@ -45,4 +45,13 @@
     display: block;
   }
 
+  &__input:placeholder-shown + &__label{
+
+    // + ke estefade shode yani __label ke belafasele bade input biad
+    //age belafasele nabud az ~ estefade mikonim
+
+  }
+
+  
+
 }
