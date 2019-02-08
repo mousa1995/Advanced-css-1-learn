@@ -31,7 +31,10 @@
   &__img{
     //Avval 100% width dadim chon aks bozorg bud nashod aks haro height bede
     height: 100%;
-    transform: translateX(-4rem);
+    transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .5s; 
+    //MISTAKE!!!! transform: translateX(-4rem), scale(1.4); cama nadare!
   }
 
   &__text{
@@ -54,5 +57,9 @@
   &:hover &__caption{
     opacity: 1;
     transform: translate(-50%, -50%);
+  }
+
+  &:hover &__img{
+    transform: translateX(-4rem) scale(1);
   }
 } 
