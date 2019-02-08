@@ -317,7 +317,7 @@ body {
 
 .stories {
   padding: 5rem 0 15rem 0;
-  background-color: #f7f7f7; }
+  position: relative; }
 
 .story {
   width: 75%;
@@ -364,6 +364,14 @@ body {
   .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(90%); }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10; }
 
 .about {
   background-color: #f7f7f7;
