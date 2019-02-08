@@ -57,6 +57,47 @@
     transform: translateY(-4rem);
   }
 
-  
+  &__radio-group {
+    width: 47%;
+    display: inline-block;
+  }
+
+  &__radio-label {
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 5rem;
+  }
+
+  &__radio-button{
+    //دکمه ساختگی ما این عنصر است
+    height: 2rem;
+    width: 2rem;
+    border: 5px solid $color-primary;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -.4rem;
+    transition: opacity .2s;
+
+    &::after{
+      // گردی وسط داخل دکمه این عنصر است
+      content: "";
+      display: block;
+      border-radius: 50%;
+      height: 1.3rem;
+      width: 1.3rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $color-primary;
+      opacity: 0;
+    }
+  }
+  &__radio-input:checked ~ &__radio-label &__radio-button::after{
+    opacity: 1;
+  }
 
 }
