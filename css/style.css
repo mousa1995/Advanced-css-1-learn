@@ -120,6 +120,7 @@ body {
 
 .footer {
   background-color: #333;
+  color: #f7f7f7;
   padding: 10rem 0;
   font-size: 1.4rem; }
   .footer__logo-box {
@@ -149,6 +150,10 @@ body {
     color: #55c57e;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: scale(1.03) rotate(6deg); }
+  .footer__copyright {
+    border-top: 1px solid #eee;
+    padding-top: 2rem;
+    display: inline-block; }
 
 .btn:link, .btn:visited {
   text-decoration: none;
