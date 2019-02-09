@@ -15,6 +15,11 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
+    background-image: radial-gradient($color-primary-light, $color-primary-dark);
+    //radial-gradient 
+    //مثل linear-gradient
+    //است با این تفاوت که گرد است و از وسط به اطراف میرود
+    
   }
 
   &__nav {
