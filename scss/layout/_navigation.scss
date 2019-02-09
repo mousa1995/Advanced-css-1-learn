@@ -1,6 +1,6 @@
 .navigation{
   &__checkbox{
-
+    display: none;
   }
 
   &__button {
@@ -11,7 +11,7 @@
     top: 6rem;
     right: 6rem;
     border-radius: 50%;
-    z-index: 10001;
+    z-index: 2000;
     //در واقع این میاد روی بک گراند قرار میگیره
     //کلیک که بشه چک باکس تیک میخوره چون لیبل است
 
@@ -34,7 +34,14 @@
   }
 
   &__nav {
-
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    //z-index این المنت باید بین اون 2 تا بشه 
+    //که بک گراند پشتش و دکمه روش باشه
+    z-index: 1500;
   }
 
   &__list {
