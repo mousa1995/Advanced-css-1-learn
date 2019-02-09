@@ -53,6 +53,16 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * (100% - 3 * 8rem) / 4 + 2 * 8rem); }
 
+.navigation__button {
+  background-color: #fff;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  top: 6rem;
+  right: 6rem;
+  border-radius: 50%;
+  z-index: 10001; }
+
 .navigation__background {
   height: 6rem;
   width: 6rem;
@@ -60,6 +70,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
+  z-index: 1000;
   background-image: radial-gradient(#7ed56f, #28b845); }
 
 .header {

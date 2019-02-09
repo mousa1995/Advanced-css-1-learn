@@ -4,6 +4,16 @@
   }
 
   &__button {
+    background-color: $color-white;
+    height: 7rem;
+    width: 7rem;
+    position: fixed;
+    top: 6rem;
+    right: 6rem;
+    border-radius: 50%;
+    z-index: 10001;
+    //در واقع این میاد روی بک گراند قرار میگیره
+    //کلیک که بشه چک باکس تیک میخوره چون لیبل است
 
   }
 
@@ -15,6 +25,7 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
+    z-index: 1000;
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
     //radial-gradient 
     //مثل linear-gradient
