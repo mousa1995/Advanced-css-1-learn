@@ -37,7 +37,7 @@
     //radial-gradient 
     //مثل linear-gradient
     //است با این تفاوت که گرد است و از وسط به اطراف میرود
-    transition: transform .8s;
+    transition: transform .8s cubic-bezier(0.19, 1, 0.22, 1);
   }
 
   &__nav {
