@@ -59,6 +59,8 @@
   &__checkbox:checked + &__button &__icon::after {
     transform: rotate(-45deg);
     top: 0;
+    //این جا ترنسفورم اوریجین رو به ما نشون داد
+    //این پروپرتی دقیقا نشون میده که نقطه چرخش باید کجا باشه
   }
   &__checkbox{
     display: none;
