@@ -80,10 +80,12 @@ body {
   background-color: transparent; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
-  transform: rotate(45deg); }
+  transform: rotate(45deg);
+  top: 0; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
-  transform: rotate(-45deg); }
+  transform: rotate(-45deg);
+  top: 0; }
 
 .navigation__checkbox {
   display: none; }
