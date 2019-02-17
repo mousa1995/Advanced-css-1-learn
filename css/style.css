@@ -76,6 +76,9 @@ body {
 .navigation__button:hover .navigation__icon::before {
   top: -1.2rem; }
 
+.navigation__checkbox:checked + .navigation__button .navigation__icon {
+  background-color: transparent; }
+
 .navigation__checkbox {
   display: none; }
   .navigation__checkbox:checked ~ .navigation__checkbox__background {
