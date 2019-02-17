@@ -28,6 +28,14 @@
     }
   }
 
+  &__button:hover &__icon::after{
+    top: 1.2rem;
+  }
+
+  &__button:hover &__icon::before{
+    top: -1.2rem;
+  }
+
   &__checkbox{
     display: none;
 
@@ -49,6 +57,7 @@
     box-shadow: 0 1rem 3rem rgba($color-black, .1);  
     z-index: 2000;
     text-align: center;
+    cursor: pointer;
     //در واقع این میاد روی بک گراند قرار میگیره
     //کلیک که بشه چک باکس تیک میخوره چون لیبل است
     
