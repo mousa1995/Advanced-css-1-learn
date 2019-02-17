@@ -1,11 +1,12 @@
 .navigation{
   &__checkbox{
-    // display: none;
+    display: none;
 
     &:checked ~ &__background {
       transform:  scale(80);
     }
     //این کد کار نمیکنه چون در جای درست سلکت نشده
+    //scss درست کامپایل نمیکنه
   }
 
   &__button {
@@ -92,5 +93,8 @@
   //سه تا چیز داریم لیبل چک باکس و پس زمینه
   //زمانی که چک باکس کلیک شد بخوره روی لیبل و پس زمینه عوض بشه
 
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
+  }
 }
 
