@@ -79,6 +79,12 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
   background-color: transparent; }
 
+.navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+  transform: rotate(45deg); }
+
+.navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+  transform: rotate(-45deg); }
+
 .navigation__checkbox {
   display: none; }
   .navigation__checkbox:checked ~ .navigation__checkbox__background {
