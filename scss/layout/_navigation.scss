@@ -1,6 +1,11 @@
 .navigation{
   &__checkbox{
-    display: none;
+    // display: none;
+
+    &:checked ~ &__background {
+      transform:  scale(80);
+    }
+    //این کد کار نمیکنه چون در جای درست سلکت نشده
   }
 
   &__button {
@@ -31,8 +36,6 @@
     //radial-gradient 
     //مثل linear-gradient
     //است با این تفاوت که گرد است و از وسط به اطراف میرود
-    
-
   }
 
   &__nav {
@@ -89,8 +92,5 @@
   //سه تا چیز داریم لیبل چک باکس و پس زمینه
   //زمانی که چک باکس کلیک شد بخوره روی لیبل و پس زمینه عوض بشه
 
-  &__checkbox:checked &__background {
-    transform: scale(80);
-  }
 }
 

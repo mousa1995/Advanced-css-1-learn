@@ -53,8 +53,8 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * (100% - 3 * 8rem) / 4 + 2 * 8rem); }
 
-.navigation__checkbox {
-  display: none; }
+.navigation__checkbox:checked ~ .navigation__checkbox__background {
+  transform: scale(80); }
 
 .navigation__button {
   background-color: #fff;
@@ -113,9 +113,6 @@ body {
 .navigation__link:active, .navigation__link:hover {
   background-position: 100%;
   color: #55c57e; }
-
-.navigation__checkbox:checked .navigation__background {
-  transform: scale(80); }
 
 .header {
   height: 95vh;
