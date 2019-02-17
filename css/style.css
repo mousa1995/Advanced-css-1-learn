@@ -53,6 +53,23 @@ body {
   .row .col-3-of-4 {
     width: calc(3 * (100% - 3 * 8rem) / 4 + 2 * 8rem); }
 
+.navigation__icon {
+  position: relative;
+  margin-top: 3.5rem; }
+  .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+    width: 3rem;
+    height: 2px;
+    background-color: #333;
+    display: inline-block; }
+  .navigation__icon::before, .navigation__icon::after {
+    content: " ";
+    position: absolute;
+    left: 0; }
+  .navigation__icon::before {
+    top: -1rem; }
+  .navigation__icon::after {
+    top: 1rem; }
+
 .navigation__checkbox {
   display: none; }
   .navigation__checkbox:checked ~ .navigation__checkbox__background {
@@ -67,7 +84,8 @@ body {
   right: 6rem;
   border-radius: 50%;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
-  z-index: 2000; }
+  z-index: 2000;
+  text-align: center; }
 
 .navigation__background {
   height: 6rem;
