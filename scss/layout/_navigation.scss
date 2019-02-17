@@ -37,6 +37,7 @@
     //radial-gradient 
     //مثل linear-gradient
     //است با این تفاوت که گرد است و از وسط به اطراف میرود
+    transition: transform .8s;
   }
 
   &__nav {
@@ -50,7 +51,8 @@
 
     opacity: 0;
     //مشکل اینه که الان نامریی هستند ولی میشه روشون کلیک کرد
-    width: auto;
+    width: 0;
+    transition: opacity .8s;
   }
 
   &__list {
@@ -60,6 +62,7 @@
     transform: translate(-50%, -50%);
     list-style-type: none;
     text-align: center;
+    width: 100%;
   }
 
   &__item {
