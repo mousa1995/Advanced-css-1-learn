@@ -41,17 +41,16 @@
 
   &__nav {
     height: 100vh;
-    width: 100%;
     position: fixed;
     top: 0;
-    right: 0;
+    right: 50%;
     //z-index این المنت باید بین اون 2 تا بشه 
     //که بک گراند پشتش و دکمه روش باشه
     z-index: 1500;
 
     opacity: 0;
     //مشکل اینه که الان نامریی هستند ولی میشه روشون کلیک کرد
-    width: 0;
+    width: auto;
   }
 
   &__list {
@@ -95,6 +94,10 @@
 
   &__checkbox:checked ~ &__background {
     transform: scale(80);
+  }
+
+  &__checkbox:checked ~ &__nav {
+    opacity: 1;
   }
 }
 
