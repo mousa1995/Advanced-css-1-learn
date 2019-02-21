@@ -13,6 +13,14 @@
   //تنهایی اوکی نیست و المنت هنوز همون جاس
   visibility: hidden;
   //اینو برای رفع مشکل اپاسیتی اضافخ میکنیم
+  transition: all .3s;
+
+  &:target {
+    opacity: 1;
+    visibility: visible;
+    //تارگت بالا یعنی زمانی که به المنت انخور میدیم 
+    //یو ار ال اسم ان رو به خودش میگیره
+  }
 
   &__content {
     background-color: $color-gray-light-2;

@@ -626,7 +626,11 @@ body {
   left: 0;
   z-index: 10;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  transition: all .3s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
   .popup__content {
     background-color: #eee;
     z-index: 11;
