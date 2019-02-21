@@ -6,6 +6,13 @@
   top: 0;
   left: 0;
   z-index: 10;
+  // display: none;
+  //بالا ی گزینه خوبی نیست چون نمیتونیم استایلش بدیم
+
+  opacity: 0;
+  //تنهایی اوکی نیست و المنت هنوز همون جاس
+  visibility: hidden;
+  //اینو برای رفع مشکل اپاسیتی اضافخ میکنیم
 
   &__content {
     background-color: $color-gray-light-2;

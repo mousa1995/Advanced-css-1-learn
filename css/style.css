@@ -624,7 +624,9 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 10; }
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden; }
   .popup__content {
     background-color: #eee;
     z-index: 11;
