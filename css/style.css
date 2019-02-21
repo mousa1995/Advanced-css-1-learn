@@ -101,7 +101,7 @@ body {
   right: 6rem;
   border-radius: 50%;
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
-  z-index: 2000;
+  z-index: 10;
   text-align: center;
   cursor: pointer; }
 
@@ -112,7 +112,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  z-index: 1000;
+  z-index: 6;
   background-image: radial-gradient(#7ed56f, #28b845);
   transition: transform 0.8s cubic-bezier(0.19, 1, 0.22, 1); }
 
@@ -121,7 +121,7 @@ body {
   position: fixed;
   top: 0;
   right: 50%;
-  z-index: 1500;
+  z-index: 7;
   opacity: 0;
   width: 0;
   transition: opacity .8s; }
@@ -618,12 +618,13 @@ body {
   opacity: 1; }
 
 .popup {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0; }
+  left: 0;
+  z-index: 10; }
   .popup__content {
     background-color: #eee; }
 
