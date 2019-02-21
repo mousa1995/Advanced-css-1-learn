@@ -628,7 +628,7 @@ body {
   .popup__content {
     background-color: #eee;
     z-index: 11;
-    width: 75vw;
+    width: 75%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -639,10 +639,16 @@ body {
     display: table-cell; }
   .popup__right {
     width: 66.66667%;
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
   .popup__img {
     width: 100%;
     display: block; }
+  .popup__text {
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 1px solid black;
+    hyphens: auto; }
 
 .about {
   background-color: #f7f7f7;
