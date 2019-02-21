@@ -14,6 +14,9 @@
   visibility: hidden;
   //اینو برای رفع مشکل اپاسیتی اضافخ میکنیم
   transition: all .3s;
+  // transition: all .3s .2s;
+  // عدد اخر توی ترنزیشن کامنت دیلی هست
+  
 
   &:target {
     opacity: 1;
