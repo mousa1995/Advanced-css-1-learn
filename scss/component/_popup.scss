@@ -1,0 +1,13 @@
+.popup {
+  background-color: rgba($color-black, .3);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  &__content {
+    background-color: $color-gray-light-2;
+
+  }
+}
