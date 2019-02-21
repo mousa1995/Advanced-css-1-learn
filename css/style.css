@@ -626,7 +626,14 @@ body {
   left: 0;
   z-index: 10; }
   .popup__content {
-    background-color: #eee; }
+    background-color: #eee;
+    z-index: 11;
+    width: 75vw;
+    height: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
 
 .about {
   background-color: #f7f7f7;

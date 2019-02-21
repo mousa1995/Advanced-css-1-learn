@@ -9,6 +9,17 @@
 
   &__content {
     background-color: $color-gray-light-2;
-
+    z-index: 11;
+    width: 75vw;
+    height: 50vh;
+    position: absolute;
+    //من این جا پوزیشن فیکس دادم 
+    //کار کرد
+    //ولی نیاز ی به پوزیشن فیکس نداشت
+    //چون این فرزند بالا یی است و اون ک فیکس شد اینو داخل خودش بصورت ابسلوت
+    //میگیره و هر جایی خواستیم قرارش میده
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
