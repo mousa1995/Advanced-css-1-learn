@@ -28,8 +28,9 @@
 //2- درست کردن حالت شرطی
 //چجوریشم یادته؟
 //پرانتز نداره
+//این چرا غلطه؟ کانتنت جاش کجاس؟
 @mixin responsive ($brakpoint){
   @if  $breakpoint == $phone {
-    
+    @content
   }
 }
