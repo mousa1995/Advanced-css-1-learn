@@ -12,3 +12,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+// این جوری میتونیم از این میکسین استفاده کنیم و محتوا رذا داخل ان بنویسیم
+@mixin phone  {
+  @media screen and (max-width: 600px){
+    @content
+  }
+}
