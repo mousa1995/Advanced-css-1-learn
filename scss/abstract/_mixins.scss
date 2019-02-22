@@ -17,6 +17,6 @@
 @mixin phone  {
   @media screen and (max-width: 600px){
     @content
-  }
+  };
 }
 //دلیل این که الان کار نمیکنه چیه ؟
