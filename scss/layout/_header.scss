@@ -32,6 +32,10 @@
   color: $color-white;
   text-align: center;
   backface-visibility: hidden;
+
+  @include phone {
+    color: red;
+  }
   
   &-main {
    text-transform: uppercase;
