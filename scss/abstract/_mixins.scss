@@ -27,8 +27,9 @@
 //2. مرحله بعدی چیه؟
 //2- درست کردن حالت شرطی
 //چجوریشم یادته؟
+//پرانتز نداره
 @mixin responsive ($brakpoint){
-  @if () {
+  @if  breakpoint == $phone {
     
   }
 }
