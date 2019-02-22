@@ -36,6 +36,10 @@
   @include phone {
     color: red;
   }
+
+  @include responsive (phone) {
+    color: blue;
+  }
   
   &-main {
    text-transform: uppercase;

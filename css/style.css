@@ -187,6 +187,9 @@ body {
     @media screen and (max-width: 600px) {
       .header__h {
         color: red; } }
+    @media (max-width: 600px) {
+      .header__h {
+        color: blue; } }
     .header__h-main {
       text-transform: uppercase;
       font-size: 6rem;

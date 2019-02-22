@@ -31,10 +31,24 @@
 //این چرا غلطه؟ کانتنت جاش کجاس؟
 //توی مدیا نوشته میشه
 //الان چی کار کنیم؟
-@mixin responsive ($brakpoint){
-  @if  $breakpoint == $phone {
+@mixin responsive ($breakpoint){
+  @if  $breakpoint == phone {
     @media (max-width: 600px) {
       @content
     };
   }
 }
+
+//چیز مهمی که یاد میگیرم اینه که کلمه بریکپوینت برای سس تعریف شده است
+
+// @mixin breakpoint($breakpoint) {
+//   @if $breakpoint == phone {
+//        @media (max-width: 600px) { @content };
+//   }
+//   @if $breakpoint == tablet-port {
+//        @media (max-width: 600px) { @content };
+//   }
+//   @if $breakpoint == tablet-land {
+//        @media (max-width: 600px) { @content };
+//   }
+// }
