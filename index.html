@@ -332,11 +332,31 @@
 
   <footer class="footer">
     <div class="footer__logo-box">
-      <img srcset="./img/logo-green-1x 1x , ./img/logo-green-2x.png 2x" alt="Logo full" class="footer__logo">
-      <!-- <img srcset="./img/logo-green-1x.png 1x , ./img/logo-green-1x.png 1x" alt="Logo full" class="footer__logo"> -->
+      
+      <!-- <img srcset="./img/logo-green-1x.png 1x , ./img/logo-green-2x.png 2x" alt="Logo full" class="footer__logo"> -->
       <!-- این برای بحث ریسپانسیو کردن عکس ها ساتفاده میشه -->
       <!-- به بروزر این اجازه رو میده ک بین یکی از این 2 عکس انتخواب کنه -->
       <!--  و اونی رو که ب اون دستگاه میخوره اوکی کنه -->
+
+        <!-- توی پیکچر میایم از سورس و ایمیج استفاده میکنیم -->
+        <!-- میتونیم هر چند تا که خواستیم استفاده کنیم -->
+        <!-- به سورس سورس ست و میدا میدیم و زمانی که به یک بریک پوینت خاص رسید عکس رو عوض میکنه -->
+        <picture class="footer__logo">
+            <source 
+              media="(min-width: 650px)"
+              srcset="img/nat-1.jpg"
+              class="footer__logo"
+              >
+            <source 
+              media="(min-width: 465px)"
+              srcset="img/nat-10.jpg"
+              class="footer__logo"
+              >
+            <img 
+            class="footer__logo"
+              src="img/nat-4.jpg" 
+              alt="a cute kitten">
+          </picture>
     </div>
 
     <div class="row">
