@@ -29,7 +29,7 @@
 //چجوریشم یادته؟
 //پرانتز نداره
 @mixin responsive ($brakpoint){
-  @if  breakpoint == $phone {
+  @if  $breakpoint == $phone {
     
   }
 }
