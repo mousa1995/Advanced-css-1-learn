@@ -29,8 +29,12 @@
 //چجوریشم یادته؟
 //پرانتز نداره
 //این چرا غلطه؟ کانتنت جاش کجاس؟
+//توی مدیا نوشته میشه
+//الان چی کار کنیم؟
 @mixin responsive ($brakpoint){
   @if  $breakpoint == $phone {
-    @content
+    @media (max-width: 600px) {
+      @content
+    };
   }
 }
