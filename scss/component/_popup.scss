@@ -18,6 +18,17 @@
   // عدد اخر توی ترنزیشن کامنت دیلی هست
   
 
+  @supports (-webkit-backdrop-fliter: blur(10px)) or (backdrop-fliter: blur(10px)) {
+    background-color: rgba($color-black, .8);
+    -webkit-backdrop-fliter: blur(10px);
+    backdrop-fliter: blur(10px);
+  }
+  // این کاری که کردیم میاد 2 تا فیچر رو بررسی میکنه که ایا بروزر ساپورت میکنه یا نه
+  // مثلا این میاد و پس زمینه رو بلر میکنه
+  // میاد و قطعه کد زیر رو اجرا میکنه اسمشم 
+  // graceful degradation 
+  //است
+
   &:target {
     opacity: 1;
     visibility: visible;

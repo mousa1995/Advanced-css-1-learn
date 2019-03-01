@@ -637,6 +637,11 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all .3s; }
+  @supports (-webkit-backdrop-fliter: blur(10px)) or (backdrop-fliter: blur(10px)) {
+    .popup {
+      background-color: rgba(0, 0, 0, 0.8);
+      -webkit-backdrop-fliter: blur(10px);
+      backdrop-fliter: blur(10px); } }
   .popup:target {
     opacity: 1;
     visibility: visible; }
