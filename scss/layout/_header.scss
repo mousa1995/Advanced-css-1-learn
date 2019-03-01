@@ -9,6 +9,14 @@
  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
 
+ @media (mix-resolution: 192dpi) {
+  background-image: linear-gradient(to right bottom,
+  rgba($color-primary-light, .8),
+  rgba($color-primary-dark, .8)), url(../img/hero.jpg);
+ }
+
+ //این چیزی که الان نوشتیم میاد و عکس رو بر اساس ریزولوشن تنظیم میکنه
+
  &__logo-box {
   position: absolute;
   top: 4rem;
