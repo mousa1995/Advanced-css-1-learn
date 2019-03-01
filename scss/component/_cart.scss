@@ -193,3 +193,23 @@
     }
   }
 }
+
+
+
+//این شرط بررسی میکنه که طرف هاور میکنه یا نه یعنی دستگاهش لمسی است یا نه
+@media only screen and (hover: none) {
+  .salam {
+    opacity: 1;
+  }
+
+}
+
+//این رو میشه ترکیب کرد مثلا با شرط زیر
+
+
+@media only screen and (hover: none),
+only screen and (max-width: 600px) {
+  .salam {
+    opacity: 1;
+  }
+}
