@@ -8,13 +8,17 @@
  position: relative;
  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
  clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
-
+ 
+ //  کد بالا توی سافاری کار نمیکنه چون اون روزولوشن رو ساپورت نمیکنه ولی جایگزین داره
+ //پس کد رو تغییر میدهیم
  @media (mix-resolution: 192dpi) and (min-width: 600px),
+        (-webkit-min-device-pixel-ratio: 2) and (min-width: 600px),
         (min-width: 2000px) {
   background-image: linear-gradient(to right bottom,
   rgba($color-primary-light, .8),
   rgba($color-primary-dark, .8)), url(../img/hero.jpg);
  }
+ //این چیزی که الان اضافه شد حرف حسابش مث همون ایکس موقع ریسپانسیو کردن عکسه
 
  //این چیزی که الان اضافه شد میگه اگه یکی از دوشرط این ور و اون ور کاما اتفاق افتاد اجراش کن
 
